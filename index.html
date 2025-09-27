@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS — Ticket System</title>
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        
+        <!-- Logo -->
+        <div class="flex-shrink-0 text-xl font-bold text-gray-900">
+          CS — <span class="text-purple-700">Ticket System</span>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-6">
+          <a href="#" class="text-gray-600 hover:text-purple-700">Home</a>
+          <a href="#" class="text-gray-600 hover:text-purple-700">FAQ</a>
+          <a href="#" class="text-gray-600 hover:text-purple-700">Changelog</a>
+          <a href="#" class="text-gray-600 hover:text-purple-700">Blog</a>
+          <a href="#" class="text-gray-600 hover:text-purple-700">Download</a>
+          <a href="#" class="text-gray-600 hover:text-purple-700">Contact</a>
+          <a href="#"
+             class="ml-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white px-4 py-2 rounded-lg shadow hover:opacity-90">
+            + New Ticket
+          </a>
+        </div>
+
+        <!-- Mobile Button -->
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-gray-600 focus:outline-none">
+            ☰
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2">
+      <a href="#" class="block text-gray-600 hover:text-purple-700">Home</a>
+      <a href="#" class="block text-gray-600 hover:text-purple-700">FAQ</a>
+      <a href="#" class="block text-gray-600 hover:text-purple-700">Changelog</a>
+      <a href="#" class="block text-gray-600 hover:text-purple-700">Blog</a>
+      <a href="#" class="block text-gray-600 hover:text-purple-700">Download</a>
+      <a href="#" class="block text-gray-600 hover:text-purple-700">Contact</a>
+      <a href="#"
+         class="block bg-gradient-to-r from-purple-500 to-purple-700 text-white px-4 py-2 rounded-lg shadow hover:opacity-90">
+        + New Ticket
+      </a>
+    </div>
+  </nav>
+
+  <!-- Link JS file -->
+  <script src="java script/script.js"></script>
+</body>
+</html>
